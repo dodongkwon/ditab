@@ -7,10 +7,10 @@ import { IAiFeature } from '@/types';
 const aiFeatures: IAiFeature[] = [
   {
     title: 'Vision AI를 통한 실시간 안전 감시체계',
-    description: '제조산업, 건물, 매장 등 다양한 환경에서의 특정 카테고리를 설정하여\n 원하는 실시간 감시체계를 구축한다.',
+    description: '제조산업, 건물, 매장 등 다양한 환경에서의 특정 카테고리를 설정하여 원하는 실시간 감시체계를 구축합니다.',
     features: [
-      '실시간 설비 누출, 화재, 작업자 안전관리',
-      '낙상, 충돌, 사고, 방범 등 행동기반 안전관리',
+      '실시간 설비 누출, 화재 안전관리',
+      '낙상, 충돌, 사고, 방법 등 행동기반 안전관리',
       '가스, 유해물질 등 기체 기반 형상화 추적관리'
     ],
     imageUrl: '/images/vision1.webp',

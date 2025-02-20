@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   images: {
+    domains: ['ditab-itaa.vercel.app'],
     unoptimized: true,
   },
-  basePath: '/ditab',
 }
 
 module.exports = nextConfig 

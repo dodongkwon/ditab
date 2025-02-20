@@ -52,7 +52,7 @@ const NaverBlog: React.FC<INaverBlogProps> = ({ size = 24, ...props }) => (
 const socialLinks: ISocialLink[] = [
   { 
     icon: NaverBlog, 
-    href: "blog.naver.com/ditab",
+    href: "https://blog.naver.com/ditab",
     name: "네이버 블로그" 
   },
   { 

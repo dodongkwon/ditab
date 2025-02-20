@@ -26,8 +26,8 @@ interface ISocialLink {
 }
 
 const footerLinks: IFooterLink[] = [
-  { name: "이용약관", href: "/terms" },
-  { name: "개인정보처리방침", href: "/privacy" },
+  { name: "이용약관", href: "#" },
+  { name: "개인정보처리방침", href: "#" },
   { name: "do@di-tab.com", href: "mailto:do@di-tab.com" },
   { name: "이메일무단수집거부", href: "/email-policy" },
 ]

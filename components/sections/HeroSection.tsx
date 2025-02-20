@@ -39,8 +39,9 @@ export function HeroSection() {
           세상을 바라보는 또 다른 눈
         </h1>
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
-          산업, 건물, 매장 등 기타 환경에서 우리가 바라보지 못한 것들에 대해 데이터 기반의 원하는 분석을 할 수 있습니다.
-        </p>
+          산업, 건물, 매장 등 기타 환경에서 우리가 바라보지 못한 것들에 대해<br />
+          데이터 기반의 원하는 분석을 할 수 있습니다.
+        </p> 
         <Button
           onClick={scrollToContact}
           size="lg"

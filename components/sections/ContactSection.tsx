@@ -84,10 +84,10 @@ export function ContactSection() {
     <div id="contact" className="w-full">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          당신이 바라던 비전을 제공합니다.
+          당신이 바라던 VISION을 제공합니다.
         </h2>
         <p className="text-xl text-gray-600 text-center mb-12">
-          Vision AI의 시각을 경험해보세요!
+          DITAB의 시각을 경험해보세요!
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -120,7 +120,7 @@ export function ContactSection() {
               type="tel"
               value={formData.phone}
               onChange={handleChange}
-              placeholder="010-0000-0000"
+              placeholder="010-1234-5678"
               className={`w-full ${
                 errors.phone ? 'border-red-500 focus:ring-red-500' : ''
               }`}

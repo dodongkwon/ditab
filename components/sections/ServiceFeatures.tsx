@@ -12,7 +12,7 @@ const features: IServiceFeature[] = [
   {
     icon: '🏢',
     title: '건물',
-    description: '기존 CCTV를 통해 데이터를 실시간 분석, 사용자가 원하는 이벤트 분류를 통해 빠른 확인이 가능합니다.',
+    description: '기존 CCTV를 활용하여 데이터를 실시간 분석, 사용자가 원하는 이벤트 분류를 통해 빠른 확인이 가능합니다.',
   },
   {
     icon: '🏪',
@@ -22,12 +22,12 @@ const features: IServiceFeature[] = [
   {
     icon: '⚡',
     title: '에너지',
-    description: '다양한 산업에서 소비되는 에너지와 탄소배출량을 측정하고 감축방안을 제시, LLM을 통한 사용자 분석 도구를 지원합니다.',
+    description: '다양한 산업에서 소비되는 에너지와 탄소배출량을 측정하고 감축방안 제시, LLM을 통한 사용자 분석 도구를 지원합니다.',
   },
   {
     icon: '🧪',
     title: '기체 탐지',
-    description: 'DITAB만의 핵심 기술로 화학산업 특화 설비 누출의 실시간 형상화 탐지 및 추적기술을 통해 작업자의 안전을 보장합니다.',
+    description: 'DITAB만의 핵심 기술로 화학산업 특화 설비 누출 실시간 형상화 탐지 및 추적기술을 통해 작업자의 안전을 보장합니다.',
   },
   {
     icon: '🏷️',

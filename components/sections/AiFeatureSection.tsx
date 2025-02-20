@@ -7,10 +7,10 @@ import { IAiFeature } from '@/types';
 const aiFeatures: IAiFeature[] = [
   {
     title: 'Vision AI를 통한 실시간 안전 감시체계',
-    description: '제조산업, 건물, 매장 등 다양한 환경에서의 특정 카테고리를 설정하여 원하는 실시간 감시체계를 구축한다.',
+    description: '제조산업, 건물, 매장 등 다양한 환경에서의 특정 카테고리를 설정하여\n 원하는 실시간 감시체계를 구축한다.',
     features: [
-      '실시간 설비 누출, 화재 안전관리',
-      '낙상, 충돌, 사고, 방법 등 행동기반 안전관리',
+      '실시간 설비 누출, 화재, 작업자 안전관리',
+      '낙상, 충돌, 사고, 방범 등 행동기반 안전관리',
       '가스, 유해물질 등 기체 기반 형상화 추적관리'
     ],
     imageUrl: '/images/vision1.webp',
@@ -31,7 +31,7 @@ const aiFeatures: IAiFeature[] = [
   },
   {
     title: 'LLM기반의 에너지 및 탄소배출량 관리',
-    description: '제조산업, 건물 등 필요한 곳에 에너지 모니터링을 통한 Peak 관리 감시와 탄소배출량 관리를 지원하며, LLM을 통한 분석 및 관리 방향을 제시합니다.',
+    description: '제조산업, 건물 등 필요한 곳에 에너지 모니터링을 통한 Peak 관리 감시와\n 탄소배출량 관리를 지원하며, LLM을 통한 분석 및 관리 방향을 제시합니다.',
     features: [
       '개별 에너지 소비량 자동분류',
       '탄소배출량 측정 및 감축효과 제시',
@@ -42,7 +42,7 @@ const aiFeatures: IAiFeature[] = [
   },
   {
     title: '데이터 라벨링',
-    description: '해외 인력을 통해 기존 시장 대비 차별화된 단가와 납품기한, 국내 PM의 검수를 통한 품질 보증을 지원합니다.',
+    description: '해외 라벨링 전문인력을 통해 기존 시장 대비 차별화된 단가와 납품기한,\n 국내 PM의 이중검수를 통한 품질 보증을 지원합니다.',
     features: [
       '다양한 라벨링 분류 가능',
       '영상, 이미지 등 프레임별 정확한 요구사항 수립',
@@ -52,6 +52,7 @@ const aiFeatures: IAiFeature[] = [
     alt: '데이터 라벨링 시스템',
   },
 ];
+
 
 interface IAiFeatureSectionProps {
   index: number;
@@ -127,7 +128,7 @@ export function AiFeatureSection({ index }: IAiFeatureSectionProps) {
         <h2 className="text-3xl md:text-4xl font-bold">
           {feature.title}
         </h2>
-        <p className="text-lg text-gray-600 leading-relaxed">
+        <p className="text-lg text-gray-600 leading-relaxed whitespace-pre-line">
           {feature.description}
         </p>
         <ul className="space-y-3">

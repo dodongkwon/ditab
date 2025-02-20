@@ -151,7 +151,7 @@ export function Footer() {
             <div className="space-y-3">
               <h3 className="text-lg font-bold">바로가기</h3>
               <ul className="space-y-2">
-                {footerLinks.map((link, index) => (
+                {footerLinks.map((link) => (
                   <li key={link.name} className={`${
                     link.name === "do@di-tab.com" ? "-mt-1" : ""
                   }`}>
@@ -179,11 +179,11 @@ export function Footer() {
             <div className="space-y-3">
               <h3 className="text-lg font-bold">소셜 미디어</h3>
               <div className="flex space-x-4">
-                {socialLinks.map((social, index) => {
+                {socialLinks.map((social) => {
                   const Icon = social.icon
                   return (
                     <a
-                      key={index}
+                      key={social.name}
                       href={social.href}
                       target="_blank"
                       rel="noopener noreferrer"

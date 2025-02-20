@@ -11,6 +11,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Menu } from 'lucide-react';
+import Link from 'next/link';
 
 const navItems: INavItem[] = [
   { label: '서비스 소개', href: '#', isModal: true },
@@ -54,9 +55,12 @@ export function Header() {
         isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-md h-14' : 'bg-transparent h-20'
       }`}>
         <div className="container mx-auto px-4 h-full flex items-center justify-between">
-          <a href="/" className={`relative transition-all duration-300 ${
-            isScrolled ? 'h-6 w-24' : 'h-8 w-32'
-          }`}>
+          <Link
+            href="/"
+            className={`relative transition-all duration-300 ${
+              isScrolled ? 'h-6 w-24' : 'h-8 w-32'
+            }`}
+          >
             <Image
               src="/images/logo.png"
               alt="DITAB"
@@ -64,7 +68,7 @@ export function Header() {
               className="object-contain"
               priority
             />
-          </a>
+          </Link>
           
           {/* 데스크톱 네비게이션 */}
           <nav className="hidden md:flex items-center gap-6">
@@ -136,7 +140,9 @@ export function Header() {
                 <button
                   key={item.label}
                   onClick={() => {
-                    item.isModal && setIsServiceModalOpen(true);
+                    if (item.isModal) {
+                      setIsServiceModalOpen(true);
+                    }
                     setIsMobileMenuOpen(false);
                   }}
                   className="w-full text-left py-2 text-gray-700 hover:text-[#F05523] transition-colors"

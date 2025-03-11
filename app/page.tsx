@@ -46,6 +46,13 @@ export default function Home() {
         </div>
       </section>
       
+      {/* AI 기능 소개 섹션 - 산업안전보건 관리 */}
+      <section className="min-h-[70vh] flex items-center">
+        <div className="container mx-auto px-4 py-12">
+          <AiFeatureSection index={4} />
+        </div>
+      </section>
+      
       {/* 문의하기 섹션 */}
       <section className="min-h-[70vh] flex items-center">
         <div className="container mx-auto px-4 py-12">

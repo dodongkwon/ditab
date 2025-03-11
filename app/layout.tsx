@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   authors: [{ name: "DITAB", url: "https://ditab.io" }],
   creator: "DITAB",
   publisher: "DITAB",
+  icons: {
+    icon: '/favicon/favicon.png',
+    shortcut: '/favicon/favicon.png',
+    apple: '/favicon/favicon.png',
+  },
   robots: {
     index: true,
     follow: true,

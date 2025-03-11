@@ -51,6 +51,17 @@ const aiFeatures: IAiFeature[] = [
     imageUrl: '/images/vison4.png',
     alt: '데이터 라벨링 시스템',
   },
+  {
+    title: '산업안전보건 관리를 위한 솔루션',
+    description: '중대재해와 화재법, 화평법 등 취급화학물질에 대한 산업안전을 지켜주는\n LLM 기반 전문 컨설턴트와 함께 관리할 수 있습니다.',
+    features: [
+      '모든 화학 관련 법령 능동형 검색',
+      'LLM 기반의 자율 점의 및 컨설팅 기능',
+      '관리방향 분석, 사용자 및 업체별 시나리오 제공'
+    ],
+    imageUrl: '/images/vison5.jpg',
+    alt: '산업안전보건 관리 솔루션',
+  },
 ];
 
 
